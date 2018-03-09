@@ -172,13 +172,16 @@ header {
 	border: none;
 	width: 175px;
 	height: 58px;
+	-webkit-transform: skew(-20deg);
+	   -moz-transform: skew(-20deg);
+	     -o-transform: skew(-20deg);
 	background-color: #eaeaea;
 	cursor: pointer;
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
 	font-size: 20px;
 	text-transform: uppercase;
-	font-style: italic;
+	/*font-style: italic;*/
 }
 .about-nav button:focus {
 	background-color: #00ccff;
@@ -205,6 +208,21 @@ header {
 }
 .about-item-img {
 	margin-right: 1rem;
+	width: 200px;
+	height: 105px;
+	background-color: #eaeaea;
+	-webkit-transform: skew(-10deg);
+	   -moz-transform: skew(-10deg);
+	     -o-transform: skew(-10deg);
+}
+.about-item-img-active {
+	background-color: #00ccff;
+}
+.about-item-img img {
+	transform: none;
+	margin: auto;
+	margin-top: 1rem;
+  	display: block;
 }
 .about-item h3 {
 	font-family: 'Lato', sans-serif;
