@@ -1,6 +1,6 @@
 header {
 	width: 100%;
-	height: 160vh;
+	min-height: 1000px;
 	background-image: url(../img/14370277547_19f78ab2e3_k.png);
 	background-position: center 60%;
 	z-index: 2;
@@ -53,6 +53,7 @@ header {
 	flex-direction: column;
 	width: 100%;
 	min-height: 500px;
+	margin-top: 5rem;
 }
 .header-middle h1 {
 	font-family: 'Lato', sans-serif;
@@ -69,6 +70,7 @@ header {
 }
 .middle-text {
 	width: 60%;
+	margin-top: 6rem;
 }
 .middle-text p {
 	font-family: 'Lato', sans-serif;
@@ -92,7 +94,7 @@ header {
 .figure {
 	z-index: -1;
     position: absolute;
-    bottom: -60%;
+    bottom: -59%;
     right: 0;
     width: 0;
     height: 0;
@@ -241,4 +243,99 @@ header {
 	grid-template-rows: repeat(2, 150px);
 	grid-template-columns: repeat(2, 400px);
 	grid-gap: 30px;
+}
+.skills {
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	z-index: 1;
+}
+.skills:after {
+	background: inherit;
+	bottom: 0;
+	content: '';
+	display: block;
+	height: 50%;
+	left: 0;
+	position: absolute;
+	right: 0;
+	transform: skewY(-10deg);
+	transform-origin: 100%;
+	z-index: -1;
+}
+.our-skills {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 5rem;
+}
+.our-skills h2 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 900;
+	font-size: 24px;
+	color: #666666;
+	text-transform: uppercase;
+}
+.our-skills p {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #666666;
+	width: 50%;
+	text-align: center;
+}
+.skills-stat {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-around;
+	-ms-align-items: center;
+	align-items: center;
+	flex-direction: row;
+	margin-top: 5rem;
+}
+.stat-curcle {
+	position: relative;
+}
+.stat-curcle span {
+	position: absolute;
+	font-family: 'Lato', sans-serif;
+	font-weight: 900;
+	font-size: 30px;
+	color: #666666;
+	top: 37%;
+    left: 33%;
+}
+.stat-item {
+	width: 11%;
+}
+.stat-item h3 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 900;
+	font-size: 20px;
+	color: #666666;
+	text-transform: uppercase;
+	text-align: center;
+}
+.stat-item p {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #acacac;
+	text-align: center;
+}
+.team {
+	width: 100%;
+	min-height: 1000px;
+	background-image: url(../img/close-up-laptop-keyboard_385-19321342.png);
+	-webkit-clip-path: polygon(0 0, 1600px 0, 1600px 87%, 0 100%);
+clip-path: polygon(0 0, 1600px 0, 1600px 80%, 0 100%);
 }

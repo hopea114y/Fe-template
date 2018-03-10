@@ -1,16 +1,20 @@
 window.onload = function () {
 
 	var btn = document.querySelectorAll('.about-btn');
+	var div = document.querySelectorAll('.about-item-img');
+	var rand = mtRand(0, div.length - 1);
+
 	for (var i = 0; i < btn.length; i++) {
-		btn[i].onclick = activeItem;
+		btn[i].onclick = activeItem.call(div[rand]);
 	}
 
 	function activeItem() {
-		var div = document.querySelectorAll('.about-item-img');
-		for (var i = 0; i < btn.length; i++) {
-			div[i].classList.toggle('about-item-img-active');
-		}
+		this.classList.toggle('about-item-img-active');
 	}
 
+}
+
+function mtRand(min, max) {
+	return Math.floor(Math.random() * (max - min + 1));
 }
 
