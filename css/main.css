@@ -143,7 +143,7 @@ header {
 	margin-top: 5rem;
 }
 .about-desc::before {
-	content: url('../img/Shape-2 copy 5.png');
+	content: url('../img/Shape-2-copy-6.png');
 	position: absolute;
     left: -100px;
     top: 25px;
@@ -373,7 +373,7 @@ clip-path: polygon(0 0, 1600px 0, 1600px 80%, 0 100%);
 	position: relative;
 }
 .team-desc-2::before {
-	content: url('../img/Shape-2 copy 5.png');
+	content: url('../img/Shape-2-copy-6.png');
 	position: absolute;
     left: -80px;
     top: 16.5rem;
