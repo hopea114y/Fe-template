@@ -473,7 +473,7 @@ clip-path: polygon(0 0, 1600px 0, 1600px 80%, 0 100%);
 }
 .our-services {
 	width: 100%;
-	height: 100vh;
+	min-height: 800px;
 }
 .services-header {
 	display: -webkit-flex;
@@ -547,7 +547,7 @@ clip-path: polygon(0 0, 1600px 0, 1600px 80%, 0 100%);
 }
 .services-item-img {
 	margin-right: 1rem;
-	width: 300px;
+	width: 350px;
 	height: 105px;
 	background-color: #00ccff;
 	-webkit-transform: skew(-10deg);
@@ -571,4 +571,83 @@ clip-path: polygon(0 0, 1600px 0, 1600px 80%, 0 100%);
 	font-weight: 400;
 	font-size: 16px;
 	color: #adadad;
+}
+.facts {
+	width: 100%;
+	min-height: 700px;
+	background-color: #f7f7f7;
+}
+.facts-desc {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	flex-direction: column;
+}
+.facts-desc h4 {
+	font-family: 'Lato', sans-serif;
+	font-size: 24px;
+	font-weight: 900;
+	text-transform: uppercase;
+	color: #666;
+	margin-top: 5rem;
+}
+.facts-desc p {
+	color: #666;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 20px;
+	width: 60%;
+	text-align: center;
+}
+.facts-block {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	flex-direction: row;
+	margin-top: 5rem;
+}
+.facts-block-item {
+	width: 15%;
+	height: 260px;
+	background-color: #ffffff;
+	border: 1px solid #cccccc;
+}
+.facts-icon {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	margin-top: 3rem;
+	margin-bottom: 1rem;
+	width: 100%;
+	height: 60px;
+}
+.facts-info h5 {
+	color: #0cf;
+	font-family: 'Lato', sans-serif;
+	font-size: 22px;
+	font-weight: 400;
+	text-align: center;
+	margin-bottom: 1rem;
+}
+.facts-info span {
+	color: #333;
+	font-family: 'Lato', sans-serif;
+	font-size: 52px;
+	font-weight: 300;
+	text-align: center;
+	display: block;
 }
