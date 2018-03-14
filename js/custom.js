@@ -17,4 +17,6 @@ window.onload = function () {
 function mtRand(min, max) {
 	return Math.floor(Math.random() * (max - min + 1));
 }
-
+$("[data-fancybox]").fancybox({
+	// Options will go here
+});

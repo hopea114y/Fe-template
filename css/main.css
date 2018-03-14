@@ -780,3 +780,7 @@ clip-path: polygon(0 0, 1600px 0, 1600px 80%, 0 100%);
 	font-weight: 400;
 	cursor: pointer;
 }
+.our-work-layer button a {
+	text-decoration: none;
+	color: #333;
+}
