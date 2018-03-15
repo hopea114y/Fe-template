@@ -775,7 +775,7 @@ clip-path: polygon(0 0, 1600px 0, 1600px 80%, 0 100%);
 	background-color: transparent;
 	border-color: #333333;
 	color: #333;
-	font-family: Lato;
+	font-family: 'Lato', sans-serif;
 	font-size: 30px;
 	font-weight: 400;
 	cursor: pointer;
@@ -783,4 +783,132 @@ clip-path: polygon(0 0, 1600px 0, 1600px 80%, 0 100%);
 .our-work-layer button a {
 	text-decoration: none;
 	color: #333;
+}
+.recent-work {
+	width: 100%;
+	min-height: 1100px;
+}
+.recent-desc {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 5rem;
+}
+.recent-desc h2 {
+	color: #666;
+	font-family: 'Lato', sans-serif;
+	font-size: 24px;
+	font-weight: 900;
+	text-transform: uppercase;
+	margin-bottom: 1rem;
+}
+.recent-desc p {
+	color: #333;
+	font-family: 'Lato', sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+}
+.recent-buttons {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	margin-top: 3rem;
+}
+.recent-buttons button {
+	width: 108px;
+	height: 33px;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	cursor: pointer;
+	margin: 5px;
+}
+.recent-items-block {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	margin-top: 3rem;
+}
+.recent-items {
+	display: grid;
+	grid-template-rows: repeat(3, 160px);
+	grid-template-columns: repeat(3, 300px);
+	grid-gap: 20px;
+}
+.recent-item:nth-child(1) {
+	background-image: url(..//img/50-most-wanted-resources-of-all-kinds9.png);
+}
+.recent-item:nth-child(2) {
+	background-image: url(../img/50-most-wanted-resources-of-all-kinds33.png);
+}
+.recent-item:nth-child(3) {
+	background-image: url(../img/best-freebies-tools-developers-designers_0071.png);
+}
+.recent-item-2:nth-child(1) {
+	background-image: url(../img/50-most-wanted-resources-of-all-kinds7.png);
+}
+.recent-item-2 {
+	background-image: url(../img/50-most-wanted-resources-of-all-kinds7.png);
+}
+.recent-item-3 {
+	background-image: url(../img/50-most-wanted-resources-of-all-kinds31.png);
+}
+.recent-item-4 {
+	background-image: url(../img/50-most-wanted-resources-of-all-kinds32.png);
+}
+.recent-item-desc h5 {
+	color: #333;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	text-align: center;
+}
+.recent-item-desc p {
+	color: #333;
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	text-align: center;
+}
+.recent-load-more {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	margin-top: 4rem;
+}
+.recent-load-more button {
+	width: 141px;
+	height: 33px;
+	background-color: #0cf;
+	border-radius: 2px;
+	cursor: pointer;
+	border: none;
+}
+.recent-load-more button span {
+	color: #fff;
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	text-transform: uppercase;
 }
