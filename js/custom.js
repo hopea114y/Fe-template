@@ -1,8 +1,19 @@
 $(document).ready(function(){
-  $(".owl-carousel").owlCarousel({
+  $(".owl-carousel.team-carousel").owlCarousel({
   	center: true,
   	loop: true,
   	items: 1,
+  	nav: false,
+  	navText: false,
+  	smartSpeed: 700
+  });
+});
+
+$(document).ready(function(){
+  $(".owl-carousel.testimonial-carousel").owlCarousel({
+  	center: true,
+  	loop: true,
+  	items: 3,
   	nav: false,
   	navText: false,
   	smartSpeed: 700
