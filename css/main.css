@@ -916,7 +916,7 @@ clip-path: polygon(0 0, 1600px 0, 1600px 80%, 0 100%);
 	line-height: 20px;
 	text-transform: uppercase;
 }
-.figure-3 {
+.figure-3, .figure-4 {
 	z-index: -1;
     bottom: 11rem;
     position: relative;
@@ -959,7 +959,7 @@ clip-path: polygon(0 0, 1600px 0, 1600px 80%, 0 100%);
 	width: 50%;
 	text-align: center;
 }
-.team-twitter-item .fa-twitter {
+.team-twitter-item .fa-twitter, .team-twitter-item .fa-quote-right {
 	color: #00ccff;
 }
 .team-carousel .owl-dots {
@@ -1117,6 +1117,10 @@ body > main > section.team.team-2 > div.owl-carousel.team-carousel.owl-loaded.ow
     color: #0099ff;
     text-decoration: none;
 }
+body > main > section.our-testimonial > div.owl-carousel.testimonial-carousel.owl-loaded.owl-drag {
+	width: 95%;
+	padding-left: 3rem;
+}
 .testimonial-carousel .owl-dots {
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -1143,8 +1147,9 @@ body > main > section.our-testimonial > div.owl-carousel.testimonial-carousel.ow
 }
 .pricing {
 	width: 100%;
-	min-height: 900px;
+	min-height: 1100px;
 	background-color: #f7f7f7;
+	clip-path: polygon(0 0, 1600px 0, 1600px 80%, 0 100%);
 }
 .pricing-desc {
 	display: -webkit-flex;
@@ -1269,4 +1274,6 @@ body > main > section.our-testimonial > div.owl-carousel.testimonial-carousel.ow
 	font-weight: 400;
 	line-height: 40px;
 }
-
+.team-3 {
+	margin-top: -13rem;
+}
