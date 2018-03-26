@@ -1277,3 +1277,184 @@ body > main > section.our-testimonial > div.owl-carousel.testimonial-carousel.ow
 .team-3 {
 	margin-top: -13rem;
 }
+.touch {
+	width: 100%;
+	min-height: 800px;
+}
+.touch-desc {
+	display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-around;
+    -ms-align-items: center;
+    align-items: center;
+    flex-direction: row;
+}
+.touch-desc-1 h3 {
+    margin-bottom: 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    color: #00ccff;
+    text-transform: uppercase;
+}
+.touch-desc-1 p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    font-style: italic;
+    color: #666666;
+}
+.touch-desc-1 span {
+    color: #ffae00;
+}
+.touch-desc-2 {
+    width: 50%;
+    position: relative;
+}
+.touch-desc-2:before {
+    content: url(../img/Shape-2-copy-5.png);
+    position: absolute;
+    left: -70px;
+    top: 0;
+}
+.touch-desc-2 p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #666666;
+    margin-top: 5rem;
+}
+.touch-middle {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	flex-direction: row;
+}
+.touch-form {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	width: 50%;
+	margin-top: 10rem;
+}
+body > main > section.touch > div.touch-middle > div.touch-form > form > input[type="text"]:nth-child(1), body > main > section.touch > div.touch-middle > div.touch-form > form > input[type="email"]:nth-child(2) {
+	width: 255px;
+	height: 50px;
+	background-color: white;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	margin: 5px;
+	padding-left: 15px;
+}
+body > main > section.touch > div.touch-middle > div.touch-form > form > input[type="text"]:nth-child(3) {
+	width: 540px;
+	height: 50px;
+	background-color: white;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	margin: 5px;
+	padding-left: 15px;
+}
+body > main > section.touch > div.touch-middle > div.touch-form > form > textarea {
+	width: 540px;
+	height: 161px;
+	background-color: white;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	margin: 5px;
+	padding-left: 15px;
+	padding-top: 15px;
+}
+body > main > section.touch > div.touch-middle > div.touch-form > form > button {
+	width: 147px;
+	height: 50px;
+	background-color: #0cf;
+	border-radius: 4px;
+	cursor: pointer;
+	color: white;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	margin: 5px;
+}
+.touch .touch-middle .touch-form form input::placeholder, .touch .touch-middle .touch-form form textarea::placeholder {
+	color: #ccc;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+.info-block {
+	width: 30%;
+	margin-top: 2rem;
+}
+.info-block h5 {
+	color: #333;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+}
+.info-block p {
+	color: #666;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 22px;
+}
+.info-block ul {
+	list-style-type: none;
+	padding: 0;
+}
+.info-block ul li {
+	color: #666;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 2.5rem;
+}
+.info-block ul .adress:before {
+	content: '\f041';
+	font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    padding: 15px;
+}
+.info-block ul .telephone:before {
+	content: '\f095';
+	font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    padding: 15px;
+}
+.info-block ul .mail:before {
+	content: '\f0e0';
+	font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    padding: 15px;
+}
+.info-block ul .mail a {
+	text-decoration: none;
+	color: inherit;
+}
+.info-block ul .clock:before {
+	content: '\f017';
+	font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    padding: 15px;
+}
