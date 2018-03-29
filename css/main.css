@@ -1458,3 +1458,51 @@ body > main > section.touch > div.touch-middle > div.touch-form > form > button 
     font-weight: normal;
     padding: 15px;
 }
+.map {
+	width: 100%;
+	min-height: 700px;
+}
+.footer-icons {
+	width: 100%;
+	min-height: 100px;
+	background-color: #2f2e2e;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	flex-direction: row;
+}
+.footer-icons a {
+	margin: 0 1rem;
+	color: #fff;
+	transition: color .5s ease;
+}
+.footer-icons a:hover {
+	color: #00e4ff;
+    transition: color .5s ease;
+}
+.copyright {
+	background-color: #00ccff;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+}
+.copyright p {
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	color: #fff;
+}
+.copyright span, a {
+	color: #0e97b9;
+	text-decoration: none;
+}
