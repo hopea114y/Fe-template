@@ -1,0 +1,139 @@
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+	body > header > div.header-section > div.logo {
+		display: none;
+	}
+	.header-section {
+		flex-direction: column;
+	}
+	.header-menu ul {
+		flex-direction: column;
+		padding: 0;
+	}
+	.header-middle {
+		margin-top: 0;
+	}
+	.header-middle h1 {
+		margin-bottom: 15px;
+	}
+	.middle-text {
+		margin-top: 0;
+	}
+	.figure {
+		bottom: -25%;
+	}
+	.about-us {
+		min-height: 1200px;
+	}
+	.about-header {
+		flex-direction: column;
+	}
+	.about-desc::before {
+		display: none;
+	}
+	.about-desc p {
+		text-align: center;
+		margin-top: 1rem;
+	}
+	.about-content {
+		margin-top: 0;
+	}
+	.about-nav ul {
+		flex-direction: column;
+		padding: 0;
+	}
+	.about-nav ul li {
+		padding: 5px 0;
+	}
+	.about-items {
+		grid-template-rows: repeat(4, 1fr);
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.about-item {
+		margin: 0 25px;
+	}
+	.skills {
+		min-height: 1300px;
+	}
+	.our-skills {
+		margin-top: 1rem;
+	}
+	.skills-stat {
+		flex-direction: column;
+		margin-top: 0;
+	}
+	.stat-item {
+		width: inherit;
+	}
+	.stat-curcle {
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		justify-content: center;
+	}
+	.stat-curcle span {
+		left: 42%;
+	}
+	.team {
+		min-height: 1300px;
+		clip-path: none;
+	}
+	.team-header {
+		flex-direction: column;
+	}
+	.team-desc-2 p {
+		margin-top: 0;
+	}
+	.team-desc-2::before {
+		display: none;
+	}
+	.team-items {
+		margin-top: 0;
+		flex-direction: column;
+	}
+	.team-item {
+		width: inherit;
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		justify-content: center;
+		-ms-align-items: center;
+		align-items: center;
+		flex-direction: column;
+	}
+	.team-item p {
+		text-align: center;
+	}
+	.figure-2 {
+		bottom: 0;
+		border-top: 5rem solid #00ccff;
+		border-left: 23.5rem solid transparent;
+	}
+	.our-services {
+		min-height: 1000px;
+	}
+	.services-header {
+		flex-direction: column;
+	}
+	.services-desc-2:before {
+		display: none;
+	}
+	.services-desc-2 p {
+		margin-top: 0;
+		text-align: center;
+	}
+	.services-middle {
+		margin-top: 1rem;
+	}
+	.services-items {
+		grid-template-rows: repeat(4, 1fr);
+		grid-template-columns: repeat(1, 1fr)
+	}
+	.services-item {
+		margin: 0 25px;
+	}
+}
