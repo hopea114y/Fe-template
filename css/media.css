@@ -136,4 +136,146 @@
 	.services-item {
 		margin: 0 25px;
 	}
+	.services-item-img {
+		width: 100%;
+	}
+	.facts {
+		min-height: 1000px;
+	}
+	.facts-block {
+		margin-top: 0;
+		flex-direction: column;
+	}
+	.facts-block-item {
+		width: 100%;
+	}
+	.our-work {
+		min-height: 2000px;
+	}
+	.our-work-desc {
+		margin-top: 0;
+		flex-direction: column;
+	}
+	.our-work-desc-2:before {
+		display: none;
+	}
+	.our-work-desc-2 p {
+		margin-top: 0;
+		text-align: center;
+	}
+	.our-work-items {
+		margin: 0;
+		grid-template-rows: repeat(5, 1fr);
+    	grid-template-columns: repeat(1, 1fr);
+	}
+	.our-work-item:nth-child(4) {
+		grid-row: inherit;
+		grid-column: inherit;
+	}
+	.recent-work {
+		min-height: 1500px;
+	}
+	.recent-desc p {
+		text-align: center;
+	}
+	.recent-buttons {
+		margin-top: 0;
+		flex-direction: column;
+	}
+	.recent-items {
+		grid-template-rows: repeat(12, 1fr);
+		grid-template-columns: repeat(1, 1fr);
+		padding: 0 25px;
+	}
+	.recent-item, .recent-item-2, .recent-item-3, .recent-item-4  {
+		background-repeat: round;
+	}
+	.team.team-2 {
+		min-height: 700px;
+	}
+	.figure-3, .figure-4 {
+		display: none;
+	}
+	.our-testimonial {
+		min-height: 1200px;
+	}
+	.our-testimonial-desc {
+		flex-direction: column;
+	}
+	.our-testimonial-desc-2:before {
+		display: none;
+	}
+	.our-testimonial-desc-1 p {
+		text-align: center;
+	}
+	.our-testimonial-desc-2 p {
+		margin-top: 0;
+		text-align: center;
+	}
+	.our-testimonial-tech {
+		margin-top: 0;
+		flex-direction: column;
+	}
+	body > main > section.our-testimonial > div.owl-carousel.testimonial-carousel.owl-loaded.owl-drag {
+		width: 85%;
+	}
+	.pricing {
+		min-height: 2500px;
+	}
+	.pricing-desc {
+		padding-top: 0;
+		flex-direction: column;
+	}
+	.pricing-desc-2:before, .touch-desc-2:before {
+		display: none;
+	}
+	.pricing-desc-1 p {
+		text-align: center;
+	}
+	.pricing-desc-2 p {
+		margin-top: 0;
+		text-align: center;
+	}
+	.pricing-plans {
+		flex-direction: column;
+		padding-top: 1rem;
+	}
+	.team.team-2.team-3 {
+		margin-top: -16rem;
+	}
+	.touch {
+		min-height: 1100px;
+	}
+	.touch-desc {
+		flex-direction: column;
+	}
+	.touch-desc-1 p {
+		text-align: center;
+	}
+	.touch-desc-2 p {
+		margin-top: 0;
+		text-align: center;
+	}
+	.touch-middle {
+		flex-direction: column;
+	}
+	.touch-form {
+		margin-top: 0;
+		width: inherit;
+	}
+	body > main > section.touch > div.touch-middle > div.touch-form > form > input[type="text"]:nth-child(1), body > main > section.touch > div.touch-middle > div.touch-form > form > input[type="email"]:nth-child(2), body > main > section.touch > div.touch-middle > div.touch-form > form > input[type="text"]:nth-child(3), body > main > section.touch > div.touch-middle > div.touch-form > form > textarea {
+		width: 91%;
+	}
+	body > main > section.touch > div.touch-middle > div.touch-form > form > button {
+		position: relative;
+		top: 1%;
+		left: 55%
+	}
+	.info-block {
+		margin-top: 0;
+		width: inherit;
+	}
+	.map {
+		min-height: 600px;
+	}
 }

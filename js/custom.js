@@ -16,7 +16,13 @@ $(document).ready(function(){
   	items: 3,
   	nav: false,
   	navText: false,
-  	smartSpeed: 700
+  	smartSpeed: 700,
+  	responsiveClass: true,
+  	responsive:{
+        480:{
+            items: 1,
+        },
+    }
   });
 });
 
