@@ -279,3 +279,107 @@
 		min-height: 600px;
 	}
 }
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+	.figure, .figure-2, .figure-3, .figure-4 {
+		display: none;
+	}
+	.about-desc::before {
+		left: -70px;
+    	top: 41px;
+	}
+	.about-items {
+		grid-template-rows: repeat(2, 1fr);
+    	grid-template-columns: repeat(2, 1fr);
+	}
+	.about-cont {
+		margin: 2rem;
+	}
+	.skills-stat {
+		margin: 2rem;
+	}
+	.stat-item {
+		width: inherit;
+		margin: 0 10px;
+	}
+	.stat-curcle span {
+		left: 25%;
+	}
+	.team-item {
+		width: inherit;
+		margin: 0 10px;
+	}
+	.team-items {
+		margin: 3rem 1rem;
+	}
+	.team-item-img {
+		width: 170px;
+	}
+	.team-item h4, .team-item p, .team-item span {
+		text-align: center;
+	}
+	.our-services {
+		min-height: 750px;
+	}
+	.services-middle {
+		margin: 3rem 1rem;
+	}
+	.services-items {
+		grid-template-columns: repeat(2, 350px);
+	}
+	.facts-block-item {
+		width: 20%;
+	}
+	.our-work-desc {
+		margin-top: 3rem;
+	}
+	.our-work-items {
+		grid-template-rows: repeat(5, 1fr);
+    	grid-template-columns: repeat(1, 1fr);
+	}
+	.our-work {
+		height: 1300px;
+	}
+	.recent-items {
+    	grid-template-columns: repeat(3, 230px);
+	}
+	.our-testimonial {
+		height: 1100px;
+	}
+	.our-testimonial-desc-2:before {
+		left: -50px;
+    	top: 25px;
+	}
+	.our-testimonial-tech {
+		margin-top: 3rem;
+	}
+	.our-testimonial-tech {
+		flex-direction: column;
+	}
+	body > main > section.our-testimonial > div.owl-carousel.testimonial-carousel.owl-loaded.owl-drag {
+		padding-left: 5rem;
+		width: 85%;
+	}
+	.pricing-desc {
+		padding-top: 3rem;
+	}
+	.pricing-desc-2:before, .touch-desc-2:before {
+		left: -55px;
+    	top: 40px;
+	}
+	.pricing-plans-item .basic-plan {
+		width: 185px;
+	}
+	body > main > section.touch > div.touch-middle > div.touch-form > form > input[type="text"]:nth-child(3) {
+		width: 255px;
+	}
+	body > main > section.touch > div.touch-middle > div.touch-form > form > textarea {
+		width: 255px;
+	}
+	.info-block {
+		width: 35%;
+	}
+	.info-block ul li {
+		font-size: 13px;
+	}
+}
