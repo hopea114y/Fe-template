@@ -19,11 +19,17 @@ $(document).ready(function(){
   	smartSpeed: 700,
   	responsiveClass: true,
   	responsive:{
+  		320:{
+            items: 1,
+        },
         480:{
             items: 1,
         },
         768:{
         	items: 1,
+        },
+        992:{
+        	items: 3,
         }
     }
   });
